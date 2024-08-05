@@ -20,7 +20,7 @@ if response.status_code == 200:
         })
             
 else:
-    print(f'O erro foi {response.status_code}')
+    print(f' erro foi {response.status_code}')
 
 #  salva dados em JSON
 for nome_do_restaurante, dados in dados_restaurante.items():

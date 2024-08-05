@@ -5,6 +5,7 @@ app = FastAPI()
 
 @app.get('/api/hello')
 def hello_world():
+    
     '''
     Endpoint exibe mensagem
     '''
